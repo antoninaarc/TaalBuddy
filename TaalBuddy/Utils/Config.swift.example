@@ -1,0 +1,12 @@
+import Foundation
+
+struct Config {
+    // INSTRUCCIONES:
+    // 1. Copia este archivo y renómbralo a "Config.swift"
+    // 2. Reemplaza "TU_API_KEY_AQUI" con tu API key de Anthropic
+    // 3. NUNCA subas Config.swift a GitHub
+    
+    static let claudeAPIKey = "TU_API_KEY_AQUI"
+    static let claudeModel = "claude-sonnet-4-20250514"
+    static let claudeAPIURL = "https://api.anthropic.com/v1/messages"
+}

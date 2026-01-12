@@ -1,0 +1,23 @@
+# API Keys - NUNCA SUBIR
+TaalBuddy/Utils/Config.swift
+
+# Xcode
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+DerivedData/
+.DS_Store
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved

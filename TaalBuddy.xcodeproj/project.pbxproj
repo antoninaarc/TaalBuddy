@@ -11,6 +11,15 @@
 		3EDC243B2F150C6400FF2E77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC243A2F150C6400FF2E77 /* ContentView.swift */; };
 		3EDC243D2F150C6900FF2E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDC243C2F150C6900FF2E77 /* Assets.xcassets */; };
 		3EDC24402F150C6900FF2E77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDC243F2F150C6900FF2E77 /* Preview Assets.xcassets */; };
+		3EDC24522F15120700FF2E77 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC24512F15120700FF2E77 /* Config.swift */; };
+		3EDC24542F15129A00FF2E77 /* ClaudeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC24532F15129A00FF2E77 /* ClaudeService.swift */; };
+		3EDC24562F15136300FF2E77 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC24552F15136300FF2E77 /* Message.swift */; };
+		3EDC24582F15138400FF2E77 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC24572F15138400FF2E77 /* Flashcard.swift */; };
+		3EDC245A2F15139F00FF2E77 /* Situation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC24592F15139F00FF2E77 /* Situation.swift */; };
+		3EDC245C2F1513E600FF2E77 /* HomeView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC245B2F1513E600FF2E77 /* HomeView .swift */; };
+		3EDC24602F15166F00FF2E77 /* SituationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC245F2F15166F00FF2E77 /* SituationDetailView.swift */; };
+		3EDC24622F1542AE00FF2E77 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC24612F1542AE00FF2E77 /* SpeechService.swift */; };
+		3EDC24642F15477F00FF2E77 /* SituatiesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC24632F15477F00FF2E77 /* SituatiesListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,16 @@
 		3EDC243A2F150C6400FF2E77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3EDC243C2F150C6900FF2E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EDC243F2F150C6900FF2E77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EDC24502F15112200FF2E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3EDC24512F15120700FF2E77 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3EDC24532F15129A00FF2E77 /* ClaudeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeService.swift; sourceTree = "<group>"; };
+		3EDC24552F15136300FF2E77 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3EDC24572F15138400FF2E77 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		3EDC24592F15139F00FF2E77 /* Situation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Situation.swift; sourceTree = "<group>"; };
+		3EDC245B2F1513E600FF2E77 /* HomeView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView .swift"; sourceTree = "<group>"; };
+		3EDC245F2F15166F00FF2E77 /* SituationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituationDetailView.swift; sourceTree = "<group>"; };
+		3EDC24612F1542AE00FF2E77 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		3EDC24632F15477F00FF2E77 /* SituatiesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituatiesListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,11 @@
 		3EDC24372F150C6400FF2E77 /* TaalBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				3EDC24502F15112200FF2E77 /* Info.plist */,
+				3EDC244F2F1510BA00FF2E77 /* Services */,
+				3EDC24482F150FD700FF2E77 /* Utils */,
+				3EDC24472F150FD100FF2E77 /* Views */,
+				3EDC24462F150FC900FF2E77 /* Models */,
 				3EDC24382F150C6400FF2E77 /* TaalBuddyApp.swift */,
 				3EDC243A2F150C6400FF2E77 /* ContentView.swift */,
 				3EDC243C2F150C6900FF2E77 /* Assets.xcassets */,
@@ -65,6 +89,91 @@
 				3EDC243F2F150C6900FF2E77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EDC24462F150FC900FF2E77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3EDC24552F15136300FF2E77 /* Message.swift */,
+				3EDC24572F15138400FF2E77 /* Flashcard.swift */,
+				3EDC24592F15139F00FF2E77 /* Situation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EDC24472F150FD100FF2E77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EDC244E2F15102F00FF2E77 /* Chatbot */,
+				3EDC244D2F15102800FF2E77 /* Verbos */,
+				3EDC244C2F15101C00FF2E77 /* Flashcards */,
+				3EDC244B2F15101300FF2E77 /* DEvsHET */,
+				3EDC244A2F15100800FF2E77 /* Situaties */,
+				3EDC24492F150FF900FF2E77 /* Home */,
+				3EDC24632F15477F00FF2E77 /* SituatiesListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EDC24482F150FD700FF2E77 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3EDC24512F15120700FF2E77 /* Config.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3EDC24492F150FF900FF2E77 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3EDC245B2F1513E600FF2E77 /* HomeView .swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		3EDC244A2F15100800FF2E77 /* Situaties */ = {
+			isa = PBXGroup;
+			children = (
+				3EDC245F2F15166F00FF2E77 /* SituationDetailView.swift */,
+			);
+			name = Situaties;
+			sourceTree = "<group>";
+		};
+		3EDC244B2F15101300FF2E77 /* DEvsHET */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DEvsHET;
+			sourceTree = "<group>";
+		};
+		3EDC244C2F15101C00FF2E77 /* Flashcards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Flashcards;
+			sourceTree = "<group>";
+		};
+		3EDC244D2F15102800FF2E77 /* Verbos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Verbos;
+			sourceTree = "<group>";
+		};
+		3EDC244E2F15102F00FF2E77 /* Chatbot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chatbot;
+			sourceTree = "<group>";
+		};
+		3EDC244F2F1510BA00FF2E77 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3EDC24532F15129A00FF2E77 /* ClaudeService.swift */,
+				3EDC24612F1542AE00FF2E77 /* SpeechService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +246,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDC24582F15138400FF2E77 /* Flashcard.swift in Sources */,
 				3EDC243B2F150C6400FF2E77 /* ContentView.swift in Sources */,
+				3EDC24602F15166F00FF2E77 /* SituationDetailView.swift in Sources */,
+				3EDC24542F15129A00FF2E77 /* ClaudeService.swift in Sources */,
+				3EDC245A2F15139F00FF2E77 /* Situation.swift in Sources */,
+				3EDC24642F15477F00FF2E77 /* SituatiesListView.swift in Sources */,
+				3EDC24562F15136300FF2E77 /* Message.swift in Sources */,
 				3EDC24392F150C6400FF2E77 /* TaalBuddyApp.swift in Sources */,
+				3EDC245C2F1513E600FF2E77 /* HomeView .swift in Sources */,
+				3EDC24622F1542AE00FF2E77 /* SpeechService.swift in Sources */,
+				3EDC24522F15120700FF2E77 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +387,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TaalBuddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaalBuddy/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need microphonen access so you can practice  speaking  dutch";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition  to help you  practice dutch pronunciation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +418,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TaalBuddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaalBuddy/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need microphonen access so you can practice  speaking  dutch";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition  to help you  practice dutch pronunciation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
